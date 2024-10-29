@@ -161,7 +161,7 @@ purchaseButton.onclick = (e) => {
         case true:
             Swal.fire({
                 title: "Confirmar la compra",
-                text: `Está por realizar una compra de: $${totalAmount}`,
+                text: `Está por realizar una compra de: $${totalAmount.toFixed(2)}`,
                 icon: "question",
                 showCancelButton: true,
                 confirmButtonColor: "#3085d6",
