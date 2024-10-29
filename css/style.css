@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    all: unset;
+}
+
+.movie {
+    width: 17rem;
+    display: grid;
+    grid-template-rows: 0.4fr 1fr 0.5fr;
+}
+
+.movie-img {
+    width: 150px; 
+    height: 250px; 
+    object-fit: cover;
+}
